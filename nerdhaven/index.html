@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <link rel="stylesheet" href="./nerdhaven.css">
+</head>
+<body ng-app="myApp">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="page-header">
+                    <div class="container">
+                        <div class="jumbotron"> <h1>Nerd Haven</h1></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                <div class="list-group">
+                    <a href="#/" class="list-group-item">Home</a>
+                    <a href="#Apply" class="list-group-item">Apply Here!</a>
+                    <a href="#How-to-connect" class="list-group-item">How to connect</a>
+                    <a href="#Rules" class="list-group-item">Rules</a>
+                    <a href="#Gallery" class="list-group-item">Picture Gallery</a>
+                    <a href="#Tips" class="list-group-item">Tips and Tricks</a>
+                    <a href="#Commands" class="list-group-item">Server Commands</a>
+                    <!-- <a href="#example" class="list-group-item"></a> -->
+                </div>
+                <h2>Discord</h2>
+                <div ng-controller="DiscordController">
+                    <small> 
+                        <a href="{{ url }}">Discord Invite</a>
+                    </small>
+                    <div class="list-group">
+                        <div class="list-group-item" ng-repeat="user in users">
+                            <h4 class="list-group-item-heading">{{ user.username }}</h4>
+                            <h6 class="list-group-item-text"> {{ user.game.name }} </h6>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>  
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-10">
+                <div class="container-fluid">
+                    <div ng-view></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+var app = angular.module("myApp", ["ngRoute"]);
+
+app.config(function($routeProvider) {
+    $routeProvider
+    .when("/", {
+        templateUrl : "Templates/_home.html"
+    })
+    .when("/How-to-connect", {
+        templateUrl : "Templates/how-to-connect.html"
+    })
+    .when("/Apply", {
+        templateUrl : "Templates/application.html",
+        controller: "ApplicationController"
+    })
+    .when("/Gallery", {
+        templateUrl :"Templates/gallery.html"
+    })
+    .when("/Tips", {
+        templateUrl : "Templates/tips.html"
+    })
+    .when("/Commands", {
+        templateUrl : "Templates/commands.html"
+    })
+    .when("/Admin", {
+        templateUrl: "Templates/admin.html",
+        controller: "AdminController"
+    })
+    .when("/Rules", {
+        templateUrl : "Templates/rules.html"
+    });
+});
+
+</script>
+
+<script src="/Controllers/AdminController.js"></script>
+<script src="/Controllers/ApplicationController.js"></script>
+<script src="/Controllers/DiscordController.js"></script>

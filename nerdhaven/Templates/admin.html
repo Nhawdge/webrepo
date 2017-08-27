@@ -1,0 +1,68 @@
+<div ng-controller="AdminController">
+    <h1> Admin Panel <button ng-show="isLoggedIn" class="btn" ng-click="Refresh()">Refresh</button></h1>
+
+    <div ng-hide="isLoggedIn">
+        <div class="form">
+            <input type="text" ng-model="password" > <br> <br>
+            <button class="btn" type="submit" ng-click="Login()" value="Log in"> Log In</button>
+        </div>
+    </div>
+    <div ng-show="isLoggedIn">    
+    <!-- This is the user list -->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="max-height: 600px; overflow-y:scroll;">
+            <div ng-repeat="app in allApplications">
+                <a class="list-group-item" ng-click="ShowUser(app)"><b>{{ app.mcUserName }}</b><br><small>{{ app.dateApplied }}</small>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- Admin version of the application -->
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"> 
+
+        <label for="mcUsername">What is your Minecraft in game name?</label>
+        <input disabled type="text" class="form-control" ng-model="user.mcUserName" id="mcUserName">
+        
+        <label for="firstName">What is your real first name?</label>
+        <input disabled type="text" class="form-control" ng-model="user.firstName" id="firstName">
+
+        <label for="age">How old are you?</label>
+        <input disabled type="text" class="form-control" ng-model="user.age" id="age">
+        
+        <label for="country">What country do you live in?</label>
+        <input disabled type="text" class="form-control" ng-model="user.country" id="country">
+        
+        <label for="personalInfo">Tell us a little bit about yourself.</label>
+        <textarea disabled class="form-control" rows="3" ng-model="user.personalInfo" id="personalInfo"></textarea>
+        
+        <label for="projects">What kind of projects/builds do you like to do in Minecraft?</label>
+        <textarea disabled class="form-control" rows="3" ng-model="user.projectInfo" id="projectInfo"></textarea>
+        
+        <label for="timePlayed">How often/how many hours do you play?</label>
+        <input disabled type="text" class="form-control" ng-model="user.timePlayed" id="timePlayed">
+        
+        <label for="reference">How did you hear about us?</label>
+        <input disabled type="text" class="form-control" ng-model="user.reference" id="reference">
+
+        <label for="email"> Email Address: </label>
+        <input disabled type="text" class="form-control" ng-model="user.email" id="email">
+
+        <label for="Whitelisted"> Whitelisted </label>
+        <select class="form-control" id="whitelisted" ng-model="user.whitelisted">
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </select>
+
+        <label for="banned">Banned</label>
+        <select class="form-control" id="banned" ng-model="user.banned">
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </select>
+        <br>
+        <label><input type="checkbox" value="SendEmail">Send Whitelist Email?</label>
+        <br>
+        <button ng-click="UpdateApplication()" class="btn btn-lg" type="button">Save</button>
+        <br><br><br><br><br><br>
+        </div>
+    </div>
+</div>

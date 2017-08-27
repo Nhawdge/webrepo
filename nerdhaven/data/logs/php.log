@@ -1,0 +1,284 @@
+2017201720172017201720172017{"email":"John@FlavorMob.com","mcUsername":"Nhawdge","firstName":"Flavor","age":"21","country":"United States","personalInfo":"Flavor Mob","projects":"cast","timePlayed":"10 hours","reference":"reddit"}{"email":"John@FlavorMob.com","mcUsername":"Nhawdge","firstName":"Flavor","age":"21","country":"United States","personalInfo":"Flavor Mob","projects":"cast","timePlayed":"10 hours","reference":"reddit"}2017201720172017201720170000000000{"email":"John@FlavorMob.com","mcUsername":"Nhawdge","firstName":"Flavor","age":"21","country":"United States","personalInfo":"Flavor Mob","projects":"cast","timePlayed":"10 hours","reference":"reddit"}
+{"email":"John@FlavorMob.com","mcUsername":"Nhawdge","firstName":"Flavor","age":"21","country":"United States","personalInfo":"Flavor Mob","projects":"cast","timePlayed":"10 hours","reference":"reddit"}
+{"email":"John@FlavorMob.com","mcUsername":"Nhawdge","firstName":"Flavor","age":"21","country":"United States","personalInfo":"Flavor Mob","projects":"cast","timePlayed":"10 hours","reference":"reddit"}
+{"email":"John@FlavorMob.com","mcUsername":"Nhawdge","firstName":"Flavor","age":"21","country":"United States","personalInfo":"Flavor Mob","projects":"cast","timePlayed":"10 hours","reference":"reddit"}
+Array
+
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+21
+United States
+Flavor Mob
+cast
+10 hours
+reddit
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+
+
+Flavor Mob
+cast
+10 hours
+reddit
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+
+
+Flavor Mob
+cast
+10 hours
+reddit
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+
+
+Flavor Mob
+cast
+10 hours
+reddit
+
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+
+
+Flavor Mob
+cast
+10 hours
+reddit
+INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) VALUES ('', '', '', '', '', '', '', '', 'false', '')
+
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+
+
+Flavor Mob
+cast
+10 hours
+reddit
+INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) VALUES ('', '', '', '', '', '', '', '', 'false', '')
+
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+
+
+Flavor Mob
+cast
+10 hours
+reddit
+
+INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) VALUES ('', '', '', '', '', '', '', '', 'false', '')
+
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+
+
+Flavor Mob
+cast
+10 hours
+reddit
+resposne 0  
+INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) VALUES ('', '', '', '', '', '', '', '', 'false', '')
+
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+
+
+Flavor Mob
+cast
+10 hours
+reddit
+John@FlavorMob.com Nhawdge Flavor   Flavor Mob cast 10 hours reddit
+INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) VALUES ('', '', '', '', '', '', '', '', 'false', '')
+
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+
+
+Flavor Mob
+cast
+10 hours
+reddit
+John@FlavorMob.com Nhawdge Flavor   Flavor Mob cast 10 hours reddit
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) VALUES ('', '', '', '', '', '', '', '', 'false', '')
+Result:
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+
+
+Flavor Mob
+cast
+10 hours
+reddit
+John@FlavorMob.com Nhawdge Flavor   Flavor Mob cast 10 hours reddit
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) VALUES ('', '', '', '', '', '', '', '', 'false', 'John@FlavorMob.com')
+Result:
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+
+
+Flavor Mob
+cast
+10 hours
+reddit
+John@FlavorMob.com Nhawdge Flavor   Flavor Mob cast 10 hours reddit
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) VALUES ('Nhawdge', '', '', '', 'Flavor Mob', '', '10 hours', 'reddit', 'false', 'John@FlavorMob.com')
+Result:
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+21
+USA
+Flavor Mob
+castle
+10 hours
+reddit
+John@FlavorMob.com Nhawdge Flavor 21 USA Flavor Mob castle 10 hours reddit
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) VALUES ('Nhawdge', '', '21', 'USA', 'Flavor Mob', '', '10 hours', 'reddit', 'false', 'John@FlavorMob.com')
+Result:
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+21
+USA
+Flavor Mob
+castle
+10 hours
+reddit
+John@FlavorMob.com Nhawdge Flavor 21 USA Flavor Mob castle 10 hours reddit
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) VALUES ('Nhawdge', '', '21', 'USA', 'Flavor Mob', '', '10 hours', 'reddit', 'false', 'John@FlavorMob.com')
+Result:
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+21
+USA
+Flavor Mob
+castle
+10 hours
+reddit
+John@FlavorMob.com Nhawdge Flavor 21 USA Flavor Mob castle 10 hours reddit
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('Nhawdge', 'Flavor', '21', 'USA', 'Flavor Mob', '', '10 hours', 'reddit', 'false', 'John@FlavorMob.com')
+Result:
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+21
+USA
+Flavor Mob
+castle
+10 hours
+reddit
+John@FlavorMob.com Nhawdge Flavor 21 USA Flavor Mob castle 10 hours reddit
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('Nhawdge', 'Flavor', '21', 'USA', 'Flavor Mob', '', '10 hours', 'reddit', 'false', 'John@FlavorMob.com');
+Result:
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+28
+United States
+Flavor Mob
+
+10hr
+Friend
+Castle
+John@FlavorMob.com Nhawdge Flavor 28 United States Flavor Mob  10hr Friend Castle
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('Nhawdge', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Friend', 'false', 'John@FlavorMob.com');
+Result:
+Array
+John@FlavorMob.com
+Nhawdge
+Flavor
+28
+United States
+Flavor Mob
+
+10hr
+Friend
+Castle
+John@FlavorMob.com Nhawdge Flavor 28 United States Flavor Mob  10hr Friend Castle
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('Nhawdge', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Friend', 'false', 'John@FlavorMob.com');
+Result:
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('Nhawdge', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Friend', 'false', 'John@FlavorMob.com');
+Result:
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('Nhawdge', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Friend', 'false', 'John@FlavorMob.com');
+Result:
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Reddit', 'false', 'John@FlavorMob.com');
+Result:
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Reddit', 'false', 'John@FlavorMob.com');
+Result:
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('nhawdge', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Reddit', 'false', 'John@FlavorMob.com');
+Result:
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('', '', '', '', '', '', '', '', 'false', '');
+Result:
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('nhawdge', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Reddit', 'false', 'John@FlavorMob.com');
+Result:
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('nhawdge', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Reddit', 'false', 'John@FlavorMob.com');
+Result:
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('nhawdge', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Reddit', 'false', 'John@FlavorMob.com');
+Result:
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('nhawdge', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Reddit', 'false', 'John@FlavorMob.com');
+Result:
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('nhawdge', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Reddit', 'false', 'John@FlavorMob.com');
+Result:
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('nhawdge', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Reddit', 'false', 'John@FlavorMob.com');
+Result:1
+2017 02 26 09:21:03Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('nhawdge', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Reddit', 'false', 'John@FlavorMob.com');
+2017 02 26 09:21:03Result:1
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('nhawdge', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Reddit', 'false', 'John@FlavorMob.com');
+Result:1
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('nhawdge', 'Flavor', '28', 'United States', 'Flavor Mob', 'Castle', '10hr', 'Reddit', 'false', 'John@FlavorMob.com');
+Result:1
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('nhawdge', 'John', '28', 'USA', 'Cheese', 'Castle', '10hr', 'Reddit', 'false', 'Fake@email');
+Result:1
+Query: INSERT INTO Applications (mcUserName, firstName, age, country, personalInfo, projectInfo, timePlayed, reference, whitelisted, email) 
+VALUES ('Nhawdge', 'Flavor', '20', 'United States', 'Flavor Mob', '', '', '', 'false', 'John@FlavorMob.com');
+Result:1

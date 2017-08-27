@@ -1,0 +1,40 @@
+
+<div ng-controller="ApplicationController">
+
+<h1> Whitelist Application Form</h1>
+<h3> {{ status }} </h3>
+<form class="form-group container-liquid" ng-show="!Submitted">
+
+    <label for="mcUsername">What is your Minecraft in game name?</label>
+    <input type="text" class="form-control" ng-model="application.mcUsername" id="mcUsername" placeholder="Your Minecraft User name">
+    
+    <label for="firstName">What is your real first name?</label>
+    <input type="text" class="form-control" ng-model="application.firstName" id="firstName" placeholder="Your First name, or prefered nickname">
+
+    <label for="age">How old are you?</label>
+    <input type="text" class="form-control" ng-model="application.age" id="age" placeholder="In years or exact amount of pizza slices eaten">
+    
+    <label for="country">What country do you live in?</label>
+    <input type="text" class="form-control" ng-model="application.country" id="country" placeholder="Like, in the world.">
+    
+    <label for="personalInfo">Tell us a little bit about yourself.</label>
+    <textarea class="form-control" rows="3" ng-model="application.personalInfo" id="personalInfo" placeholder="Let loose!"></textarea>
+    
+    <label for="projects">What kind of projects/builds do you like to do in Minecraft?</label>
+    <textarea class="form-control" rows="3" ng-model="application.projectInfo" id="projectInfo" placeholder="Medieval castles, villages, ice cream stands, etc"></textarea>
+    
+    <label for="timePlayed">How often/how many hours do you play?</label>
+    <input type="text" class="form-control" ng-model="application.timePlayed" id="timePlayed" placeholder="I play so much I have developed an allergy to the sun">
+    
+    <label for="reference">How did you hear about us?</label>
+    <input type="text" class="form-control" ng-model="application.reference" id="reference" placeholder="Friend, website, tapped phone line, etc">
+
+    
+    <label for="email"> Email Address: </label> <small>(This is how we will contact you once whitelisted)</small>
+    <input type="text" class="form-control" ng-model="application.email" id="email" placeholder="Your Email Address">
+
+    <br>
+    <button type="button" ng-click="SubmitApplication()">Submit</button>
+</form>
+
+</div>
